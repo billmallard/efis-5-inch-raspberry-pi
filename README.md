@@ -43,12 +43,6 @@ The IO board is designed to work with:
 3. **Verification:** Review `IO Board - Schematic.pdf` before assembly to confirm wiring to your specific display and RPi model
 4. **Mechanical:** Import `IO Board.step` into your CAD tool for enclosure and panel cutout design
 
-## Role in the MakerPlane / MAOS Ecosystem
-
-This board provides the **physical hardware layer** for a low-cost primary flight display. Combined with [pyEfis](../pyEfis) and [FIX-Gateway](../fix-gateway), it forms a complete EFIS unit that can display attitude, airspeed, altitude, heading, moving map, and engine data sourced from the aircraft CAN-FIX network.
-
-For MAOS integration, this hardware could serve as the cockpit display for MAOS avionics data published through FIX-Gateway.
-
 ## Important Disclaimer
 
 > This is open hardware for Experimental Amateur-Built aircraft use only.  
